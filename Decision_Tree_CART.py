@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv("E:\Sem 5\ML\ML_Lab\Decision_Tree\Social_Network_Ads.csv")
+data = pd.read_csv("Social_Network_Ads.csv")
 data.head()
 
 feature_cols = ['Age', 'EstimatedSalary']
